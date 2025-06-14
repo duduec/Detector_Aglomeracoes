@@ -36,7 +36,7 @@ Projeto_Aglomeracoes/
 
 ```bash
 git https://github.com/duduec/Detector_Aglomeracoes.git
-cd Projeto_Aglomeracoes
+cd Detector_Aglomeracoes
 ```
 
 2. Instale as dependências com `uv`:
