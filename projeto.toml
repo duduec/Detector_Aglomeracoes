@@ -1,0 +1,20 @@
+[project]
+name = "contador-pessoas"
+version = "0.1.0"
+description = "Um contador de pessoas em tempo real com YOLOv8 e DeepSort."
+requires-python = ">=3.8"
+
+dependencies = [
+    "opencv-python",
+    "ultralytics",
+    "deep-sort-realtime",
+    "setuptools"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.5",
+]
+
+[tool.pytest.ini_options]
+pythonpath = "src"
